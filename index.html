@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Calculator app</title>
+  <!-- css styesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- javascript -->
+  <script src="app.js" defer></script>
+</head>
+
+<body class="theme">
+  <div class="container">
+    <div class="calculator-container">
+      <header class="calculator-header flex">
+        <h1>calc</h1>
+        <div class="flex theme-box">
+          <p>Theme</p>
+          <div class="controls">
+            <div>
+              <label for="switch">1</label>
+              <input type="radio" name="switch" id="theme1" checked>
+            </div>
+            <div>
+              <label for="switch">2</label>
+              <input type="radio" name="switch" id="theme2">
+            </div>
+            <div>
+              <label for="switch">3</label>
+              <input type="radio" name="switch" id="theme3">
+            </div>
+            <!-- <span class="control-circle theme1"></span> -->
+          </div>
+
+        </div>
+      </header>
+
+      <div class="calculator-output">
+        <h1></h1>
+      </div>
+      <div class="container-btn">
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-delete>del</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operend>+</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operend>-</button>
+        <button data-number>.</button>
+        <button data-number>0</button>
+        <button data-operend>/</button>
+        <button data-operend>&times;</button>
+        <button data-reset>reset</button>
+        <button data-equals>=</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
